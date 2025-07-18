@@ -1,0 +1,37 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- Background -->
+  <rect width="256" height="256" rx="56" ry="56" fill="#1A237E" />
+
+  <!-- Decorative Boxes -->
+  <rect x="32" y="32" width="48" height="48" rx="12" ry="12" fill="#90A4AE" fill-opacity="0.12" />
+  <rect x="176" y="40" width="32" height="32" rx="8" ry="8" fill="#90A4AE" fill-opacity="0.12" />
+  <rect x="60" y="180" width="36" height="36" rx="9" ry="9" fill="#90A4AE" fill-opacity="0.12" />
+  <rect x="160" y="180" width="48" height="24" rx="6" ry="6" fill="#90A4AE" fill-opacity="0.12" />
+
+  <!-- Chart Line with Gradient Stroke -->
+  <defs>
+    <linearGradient id="goldGradient" x1="60" y1="180" x2="200" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFD700"/>
+      <stop offset="1" stop-color="#B8860B"/>
+    </linearGradient>
+  </defs>
+  <polyline points="60,180 100,140 140,160 180,80 200,100" fill="none" stroke="url(#goldGradient)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Piggy bank body -->
+  <rect x="52" y="168" width="20" height="20" rx="5" ry="5" fill="#263238" stroke="#B0BEC5" stroke-width="2" />
+  <rect x="58" y="175" width="8" height="7" rx="2" ry="2" fill="#B0BEC5" />
+  <rect x="60" y="172" width="4" height="5" rx="2" ry="2" fill="#FFD700" />
+
+  <!-- Calendar-like Shape with Gradient Fill -->
+  <defs>
+    <linearGradient id="calendarGradient" x1="170" y1="65" x2="210" y2="77" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ECEFF1"/>
+      <stop offset="1" stop-color="#B0BEC5"/>
+    </linearGradient>
+  </defs>
+  <rect x="170" y="65" width="40" height="12" rx="6" ry="6" fill="url(#calendarGradient)" stroke="#B0BEC5" stroke-width="2" />
+
+  <!-- Arrow tip (triangle) -->
+  <polygon points="195,90 210,80 200,100" fill="url(#goldGradient)" />
+</svg>
